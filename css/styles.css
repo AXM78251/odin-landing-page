@@ -31,7 +31,7 @@ body {
 }
 
 .header-main {
-    flex: 2;
+    flex: 3;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -87,7 +87,7 @@ body {
 
 .placeholder {
     background: #E5E7EB;
-    flex: 1;
+    flex: 4;
     width: 100%;
     min-width: 100px;
     height: 300px;
