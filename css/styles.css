@@ -31,12 +31,11 @@ body {
 }
 
 .header-main {
-    max-width: 300px;
+    flex: 2;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .header-main > button {
@@ -64,6 +63,8 @@ body {
 
 .secondary {
     font-size: 18px;
+    overflow-wrap: break-word;
+    overflow: auto;
     font-weight: lighter;
 }
 
@@ -74,16 +75,21 @@ body {
 }
 
 .main-text {
+    width: 65%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-self: center;
     gap: 32px;
     flex-wrap: wrap;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 .placeholder {
     background: #E5E7EB;
     flex: 1;
-    max-width: 300px;
+    width: 100%;
+    min-width: 100px;
     height: 300px;
     display: flex;
     justify-content: center;
